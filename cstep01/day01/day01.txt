@@ -1,0 +1,13 @@
+rm
+rm -r
+mkdir
+mkdir abc/zj
+mkdir -p abc/zj
+cd
+clear
+ls
+pwd
+ls -a
+ls -l
+ls -al
+touch 
