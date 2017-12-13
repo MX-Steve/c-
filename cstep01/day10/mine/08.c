@@ -7,5 +7,10 @@ int main(){
     char ch = "a";
     float fnum = 5.3f;
     void *p_num = &num;
+    printf("%d\n",  *(int *)p_num);
+    p_num = &ch;
+    printf("%c\n",*(char *)p_num);
+    p_num = &fnum;
+    printf("%g\n",*(float *)p_num);
     return 0;
 }
